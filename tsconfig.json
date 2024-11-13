@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                  // Set ECMAScript version (ES6 or above)
+    "module": "ES6",                  // Use ES module syntax for imports/exports
+    "moduleResolution": "node",       // Node-style module resolution
+    "outDir": "./dist",               // Output directory for compiled files
+    "rootDir": "./src",               // Root directory of TypeScript source files
+    "esModuleInterop": true,          // Allows better interoperability with ES modules
+    "strict": true                    // Enable strict type-checking options
+  },
+  "include": ["src/**/*.ts"]           // Specify the files to compile
+}
